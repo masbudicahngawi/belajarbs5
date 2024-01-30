@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Belajar Bootstrap 5</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            .abu {
+                background-color: grey;
+            }
+            .kuning {
+                background-color: yellow;
+            }
+            .sian {
+                background-color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="kuning col-md-8">
+                    <div class="main-content">8</div>
+                </div>
+                <div class="abu col-md-4">
+                    4
+                    <!--Nested rows within a column-->
+                    <div class="row">
+                        <div class="sian col-md-10">10</div>
+<div class="abu col-md-2">2</div>
+                    </div>
+                    <div class="row">
+                        <div class="abu col-md-5">5</div>
+                        <div class="kuning col-md-7">7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
